@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import Any, Dict
-from model_benchmarking.containers.data_container import ModelResponse, ApiResponse
+from containers.data_container import ModelResponse, ApiResponse
 
 class ModelInteraction(ABC):
     """

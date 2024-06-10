@@ -1,8 +1,8 @@
 from contextvars import ContextVar
 import aiohttp
 from typing import Dict, Any
-from model_benchmarking.model_interactions.base_model import ModelInteraction
-from model_benchmarking.containers.data_container import ApiResponse, DomainAnalysis, ModelResponse
+from model_interactions.base_model import ModelInteraction
+from containers.data_container import ApiResponse, DomainAnalysis, ModelResponse
 
 # use context var for domain name for smaller models to instantiate dataclasses,
 # since these models do not return the domain name in their response 

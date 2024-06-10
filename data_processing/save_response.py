@@ -2,8 +2,8 @@ from threading import Lock
 import pandas as pd 
 from pathlib import Path 
 import json
-from model_benchmarking.configs.config_loader import ModelConfig
-from model_benchmarking.containers.data_container import ModelResponse
+from configs.config_loader import ModelConfig
+from containers.data_container import ModelResponse
 
 # TODO: 
 # Add support for writing to JSON - make configurable 

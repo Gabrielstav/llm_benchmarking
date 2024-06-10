@@ -2,8 +2,8 @@ import json
 import aiohttp
 import asyncio
 from typing import Dict, Any
-from model_benchmarking.model_interactions.base_model import ModelInteraction
-from model_benchmarking.containers.data_container import ApiResponse, DomainAnalysis, ModelResponse, ResponseMetadata
+from model_interactions.base_model import ModelInteraction
+from containers.data_container import ApiResponse, DomainAnalysis, ModelResponse, ResponseMetadata
 
 # TODO API error 429 for Anthropic - rate limit exceeded. Need to upgrade subscription for actual processing. 
 #      can automate this with exponential backoff and indexing into output file, to send new payloads corresponding to correct index in output data

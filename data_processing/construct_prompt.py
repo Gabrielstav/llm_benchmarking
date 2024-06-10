@@ -1,6 +1,6 @@
 import pandas as pd 
-from model_benchmarking.configs.prompts import get_domain_prompt_single, get_domain_prompt_batch, get_only_domain_single
-from model_benchmarking.configs.config_loader import ModelConfig
+from configs.prompts import get_domain_prompt_single, get_domain_prompt_batch, get_only_domain_single
+from configs.config_loader import ModelConfig
 
 class ConstructPrompt:
     """

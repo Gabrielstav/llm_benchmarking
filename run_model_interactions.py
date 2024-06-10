@@ -1,8 +1,8 @@
 import asyncio
 from typing import List 
 from configs.config_loader import ModelConfig, create_model_configs
-from model_benchmarking.managers.interaction_manager import ModelInteractionManager
-from model_benchmarking.managers.benchmark_manager import run_analysis, run_highlighted_comparison
+from managers.interaction_manager import ModelInteractionManager
+from managers.benchmark_manager import run_analysis, run_highlighted_comparison
 
 
 # General TODO: 

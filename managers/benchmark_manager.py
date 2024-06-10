@@ -7,8 +7,8 @@ import json
 from openpyxl import Workbook
 from openpyxl.styles import Font
 from typing import List, Dict
-from model_benchmarking.containers.data_container import ModelResponse, ResponseMetadata, DomainAnalysis
-from model_benchmarking.configs.config_loader import get_validated_data, get_output_data_directory, get_model_name_mapping
+from containers.data_container import ModelResponse, ResponseMetadata, DomainAnalysis
+from configs.config_loader import get_validated_data, get_output_data_directory, get_model_name_mapping
 
 # TODO 
 # Split classes into separate functions/classes based on responsibility, make more modular, and make manager that calls them and handles state.
